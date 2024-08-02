@@ -1,0 +1,21 @@
+{
+  "name": "playwrightorange",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js test",
+    "posttest": "npx ts-node src/helper/report.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.8.0",
+    "@playwright/test": "^1.45.3",
+    "@types/node": "^22.0.0",
+    "multiple-cucumber-html-reporter": "^3.7.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
