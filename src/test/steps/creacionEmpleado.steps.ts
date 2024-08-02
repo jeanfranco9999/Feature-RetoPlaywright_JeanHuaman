@@ -18,12 +18,6 @@ let globalConfirmarPassword = ""
 
 let globalIdentificador = ""
 
-When('El admin crea un nuevo empleado llamado {string}', async function (nombreCompleto) {
-    globalNombreCompleto = nombreCompleto
-    // await creacionEmpleado.ingresarDatosDelEmpleado(nombreCompleto)
-
-});
-
 When('El admin ingresa el nombre completo del empleado:', async function (datatable:DataTable) {
     
     datatable.hashes().map(row => (
